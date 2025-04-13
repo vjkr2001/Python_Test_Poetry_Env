@@ -1,0 +1,41 @@
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Poetry virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Poetry configuration
+.env
+.env.*
+
+# Build and distribution folders (for packaging)
+build/
+dist/
+*.egg-info/
+
+# Test cache (pytest)
+.pytest_cache/
+
+# Logs and coverage reports
+*.log
+coverage.*
+htmlcov/
+
+# IDEs and editors
+.idea/            # JetBrains
+.vscode/          # VS Code settings
+
+# Other files from deployment
+*.bak
+*.swp
+
+# Python egg-related files
+*.egg
